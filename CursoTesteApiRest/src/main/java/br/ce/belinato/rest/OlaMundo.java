@@ -23,6 +23,8 @@ public class OlaMundo {
 			ValidatableResponse validacao = response.then(); //criando e instanciando o método que valida a resposta mais facilmente
 			validacao.statusCode(200); //validação do status code 200
 			
+			System.out.println("Testando commitar via eclipse");
+			
 		}
 	}
 
